@@ -10,10 +10,11 @@
     border-color: aqua;
 
 
-.a{
-    font-size: 25px;
-    color: blue;
-    background-color: lightyellow;
-}
+    a {
+        font-size: 25px;
+        color: blue;
+        background-color: lightyellow;
+        text-decoration: none;
+    }
 
 }
