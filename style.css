@@ -1,0 +1,18 @@
+.profile {
+    font-style: italic;
+    color: rgb(235, 82, 5);
+    background-color: azure;
+    width: 700px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+
+    h1 {
+        color: rgb(5, 82, 235);
+        font-weight: 3300;
+    }
+}
+
+.profile > h1 {
+
+}
