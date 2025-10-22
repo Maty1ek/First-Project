@@ -1,0 +1,17 @@
+body {
+
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    background-color: white; 
+    width: 70%;              
+    border: 2px solid #333;  
+}
+
+
+a {
+    background-color: yellow;
+   
+}
