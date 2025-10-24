@@ -1,0 +1,9 @@
+
+ .darren_intro_con {
+    background-color :rgb(234, 87, 234);
+    width:1000px;
+    border:blueviolet solid 5px;
+}
+.darren_intro_con a {
+    color:rgb(98, 11, 220)
+}
