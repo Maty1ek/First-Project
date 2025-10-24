@@ -1,8 +1,8 @@
-.OomatsIntro{
+.oomats_intro{
     background-color: beige;
     width: 580px;
     border: 5px solid black;
 }
-.OomatsIntro a{
+.oomats_intro a{
     background-color: black;
 }
