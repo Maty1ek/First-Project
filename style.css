@@ -1,8 +1,8 @@
 .OomatsIntro{
     background-color: beige;
-    width: 180pt;
-    border: 5cap;
+    width: 580px;
+    border: 5px solid black;
 }
-#Mya{
+.OomatsIntro a{
     background-color: black;
 }
