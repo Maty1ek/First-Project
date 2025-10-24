@@ -1,0 +1,9 @@
+.bello {
+    background-color: bisque;
+    width: 800px;
+    border: solid 3px blueviolet;
+}
+
+.bello p a {
+    background-color: black;
+}
