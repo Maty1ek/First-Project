@@ -1,12 +1,12 @@
-.Nurtay_project {
+.nurtay_project {
     background-color: aqua;
     width: 600px;
     border: 10px solid black;
-    border-style: solid;
-    border-color: blue;
-    border-width: 88ch;
+
+    a {
+        background-color: yellow;
+    }
 }
-.Nurtay_project {
-    background-color: brown;
-    border-radius: 5px;
+.nurtay_project a {
+    background-color: bisque;
 }
