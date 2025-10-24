@@ -1,0 +1,8 @@
+.OomatsIntro{
+    background-color: beige;
+    width: 580px;
+    border: 5px solid black;
+}
+.OomatsIntro a{
+    background-color: black;
+}
