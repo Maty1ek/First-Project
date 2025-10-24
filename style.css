@@ -1,0 +1,12 @@
+.bello {
+    background-color: bisque;
+    width: 800px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:blueviolet;
+}
+
+.bello a {
+    background-color: black;
+}
+
