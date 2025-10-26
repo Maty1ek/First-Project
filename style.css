@@ -1,0 +1,12 @@
+.Intro_Marvin_con {
+    background-color:lightpink;
+    width: 80%;
+    border: 5px solid;
+    border-color: chartreuse;
+}
+a .Intro_Marvin_con {
+  background-color: lightgreen;
+}
+.Name_age_con {
+    color: lightblue;
+}
