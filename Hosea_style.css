@@ -1,0 +1,18 @@
+.hosea_intro_con {
+    background-color: aqua;
+    transition:ease-in;
+    width: 600px;
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 30px;
+}
+
+.hosea_link {
+    background-color: rgb(18, 255, 160);
+   
+    
+}
+
+.hosea_age {
+font-size: 40px;
+}
