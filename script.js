@@ -1,53 +1,53 @@
-let container = document.getElementById("darren_div");
-let heading1 = document.getElementById("darren_h1");
+let darrenContainer = document.getElementById("darren_div");
+let darrenHeading1 = document.getElementById("darren_h1");
 
-function changeWidth(element, width) {
+function darrenChangeWidth(element, width) {
     element.style.width = width;
 }
-function changeFontSize(element, fontSize) {
+function darrenChangeFontSize(element, fontSize) {
     element.style.fontSize = fontSize;
 }
 
-let changeWidthBtn = document.getElementById("darren_changeWidthBtn");
-let changeHeadingSize = document.getElementById("darren_changeHeadingSizeBtn");
-let changeBgColor = document.getElementById("darren_changeBgColor");
+let darrenChangeWidthBtn = document.getElementById("darren_changeWidthBtn");
+let darrenChangeHeadingSize = document.getElementById("darren_changeHeadingSizeBtn");
+let darrenChangeBgColor = document.getElementById("darren_changeBgColor");
 
-changeBgColor.addEventListener("click", () => {
-    if (container.style.backgroundColor == "rgb(234, 87, 234)") {
-        container.style.backgroundColor = "lightblue";
+darrenChangeBgColor.addEventListener("click", () => {
+    if (darrenContainer.style.backgroundColor == "rgb(234, 87, 234)") {
+        darrenContainer.style.backgroundColor = "lightblue";
 }
     else {
-        container.style.backgroundColor = "rgb(234, 87, 234)";
+        darrenContainer.style.backgroundColor = "rgb(234, 87, 234)";
 }
 })
 
-changeWidthBtn.addEventListener("click", () => {
-    if (container.style.width == "500px") {
-        changeWidth(container, "1000px");
+darrenChangeWidthBtn.addEventListener("click", () => {
+    if (darrenContainer.style.width == "500px") {
+        darrenChangeWidth(darrenContainer, "1000px");
     }
     else  {
-        changeWidth(container, "500px");
+        darrenChangeWidth(darrenContainer, "500px");
 }
 })
 
-changeHeadingSize.addEventListener("click", () => {
-    if (heading1.style.fontSize == "50px") {
-        changeFontSize(heading1, "70px");
+darrenChangeHeadingSize.addEventListener("click", () => {
+    if (darrenHeading1.style.fontSize == "50px") {
+        darrenChangeFontSize(darrenHeading1, "70px");
     }
-    else if (heading1.style.fontSize == "70px") {
-        changeFontSize(heading1, "100px");
+    else if (darrenHeading1.style.fontSize == "70px") {
+        darrenChangeFontSize(darrenHeading1, "100px");
     }
     else {
-        changeFontSize(heading1, "50px");
+        darrenChangeFontSize(darrenHeading1, "50px");
     }
 });
-const hobbies = ['Pickleball','Tennis','Table tennis','Watching movies'];
-const myHobbiesList = document.getElementById("myhobbies");
+const darrenHobbies = ['Pickleball','Tennis','Table tennis','Watching movies'];
+const darrenHobbiesList = document.getElementById("myhobbies");
 
-for (let i = 0; i < hobbies.length; i++) {
+for (let i = 0; i < darrenHobbies.length; i++) {
     const li = document.createElement("li");
-    li.textContent = hobbies[i];
-    myHobbiesList.appendChild(li);
+    li.textContent = darrenHobbies[i];
+    darrenHobbiesList.appendChild(li);
 }
 
 // let container = document.getElementById("darren_div");
