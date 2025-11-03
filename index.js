@@ -5,13 +5,12 @@ let danielbutton4 = document.querySelector("#danielwidthsize")
 let danielbello = document.querySelector(".danielbello");
 let danielheading1 = document.querySelector(".danielbello h1");
 let danielheading2 = document.querySelector(".danielbello h2");
-let ul = document.querySelector("#danielhobbies");
 
-function changeFontTwice(element, size){
+function danielchangeFontTwice(element, size){
   element.style.fontSize = size;
 }
 
-function changeWidth(element, width){
+function danielchangeWidth(element, width){
   element.style.width = width;
 }
 
@@ -25,11 +24,11 @@ danielbutton1.addEventListener("click", () => {
 
 danielbutton2.addEventListener("click", () => {
   if(danielheading1.style.fontSize == '50px') {
-    changeFontTwice(danielheading1,'60px');
+    danielchangeFontTwice(danielheading1,'60px');
   } else  if(daniielheading1.style.fontSize == '60px') { 
-    changeFontTwice(danielheading1, '70px');
+    danielchangeFontTwice(danielheading1, '70px');
     } else {
-      changeFontTwice(danielheading1, '50px');
+      danielchangeFontTwice(danielheading1, '50px');
   }
 });
 
@@ -50,9 +49,9 @@ danielbutton3.addEventListener("click", () => {
 
 danielbutton4.addEventListener("click", () => {
   if (danielbello.style.width === '800px') {
-    changeWidth(danielbello, '900px');
+    danielchangeWidth(danielbello, '900px');
   } else {
-    changeWidth(danielbello,'800px');
+    danielchangeWidth(danielbello,'800px');
   }
 });
 let danhobi = ["Playing games","Reading books", "Sleeping"];
